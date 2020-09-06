@@ -9,14 +9,13 @@ dist/**
 #
 node_modules/
 .env
-.codesandbox/
 
-# EDITOR FILES
+# SYSTEM FILES
 #
 .vscode
 *.sublime*
 *.code-workspace
 
-# SYSTEM FILES
-#
+.codesandbox
+
 .DS_*
