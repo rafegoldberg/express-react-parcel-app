@@ -1,0 +1,21 @@
+# BUNDLER FILES
+#
+dist
+dist/
+dist/**
+.cache
+
+# ENVIRONMENT FILES
+#
+node_modules/
+.env
+
+# EDITOR FILES
+#
+.vscode
+*.sublime*
+*.code-workspace
+
+# SYSTEM FILES
+#
+.DS_*
