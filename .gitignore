@@ -9,6 +9,8 @@ dist/**
 #
 node_modules/
 .env
+yarn-*.log
+npm-*.log
 
 # SYSTEM FILES
 #
