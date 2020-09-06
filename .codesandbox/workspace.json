@@ -7,14 +7,6 @@
         },
         {
           "id": "codesandbox.console"
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 8080,
-            "url": "https://qr59b-8080.sse.codesandbox.io"
-          },
-          "closeable": true
         }
       ]
     },
