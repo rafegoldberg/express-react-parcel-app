@@ -21,10 +21,12 @@ app.get('/api', (req, res) =>
 );
 
 // BUNDLE
-//
+// (maybe don't use `.middleware` for SSR?
+//  https://stackoverflow.com/a/59587992/1341949)
 const entry = Path.join(__dirname, '..', 'src/index.html');
 console.log(entry)
 const bundler = new Bundler(entry);
+
 app.use('/', bundler.middleware());
 
 // START
